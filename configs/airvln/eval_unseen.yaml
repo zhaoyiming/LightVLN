@@ -1,0 +1,47 @@
+model_type: airminivla
+model_name_or_path: models/prism-qwen25-0.5b-hf
+checkpoint_dir: /external/lightvln/checkpoints/airvln/epoch-003
+openvla_root: third_party/OpenVLA
+airvln_root: third_party/AirVLN
+airvln_project_root: .
+aerialvln_s_data_dir: /external/lightvln/annotations/aerialvln-s
+split: val_unseen
+output_dir: /external/lightvln/eval/airvln_unseen
+prompt_template: 'In: What primitive action should the aerial robot take to follow
+  the instruction: {instruction}?
+
+  Out:'
+max_text_tokens: 256
+max_actions: 500
+eval_num: 531
+simulator_port: 56000
+simulator_gpu_ids: '0'
+image_height_rgb: 224
+image_width_rgb: 224
+reset_warmup_seconds: 0.0
+reset_discard_frames: 60
+use_flash_attention_2: false
+bf16: false
+seed: 7
+deterministic: true
+resume: false
+airminivla_variant: s0
+num_frames: 1
+frame_history_stride: 1
+use_prev_action: false
+use_previous_actions_text: false
+use_relative_state_text: false
+use_relative_planar_state_text: false
+use_memory: false
+visual_history_mode: none
+use_temporal_memory: false
+use_h16_frozen_pool: false
+use_omtrack: false
+use_native1t_postfusion: true
+native1t_stage: 2
+native1t_history_length: 16
+native1t_stage1_memory_frames: 9
+native1t_history_mode: fifo
+temporal_memory_attention_heads: 8
+action_chunk_horizon: 1
+action_chunk_temporal_ensemble: false

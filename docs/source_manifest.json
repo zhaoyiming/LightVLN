@@ -1,0 +1,391 @@
+{
+  "version": "pre-fix-20261002",
+  "core_experiment": "611352",
+  "openfly_support_experiment": "607858",
+  "files": [
+    {
+      "path": "src/aerial_openvla/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "8f0b8a13ba6d63fe6892f744b4d22115eb660de2a5fc3af45ae3f954e66740cb",
+      "bytes": 64
+    },
+    {
+      "path": "src/aerial_openvla/core/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "cdf6063c697f09dbdc180acaab2ebaa25494916eabec167b9bbaef676baf680f",
+      "bytes": 57
+    },
+    {
+      "path": "src/aerial_openvla/core/actions.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "681bd370fd2094feefd1ca402557c4612c388ce4707d80d375932cfdbf108528",
+      "bytes": 1631
+    },
+    {
+      "path": "src/aerial_openvla/core/config.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "f3b7d5bac8095e0f95504a3df3442c5f6234498c1bccf14c01d8e2db5cb35159",
+      "bytes": 18681
+    },
+    {
+      "path": "src/aerial_openvla/data/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "f5eb5db2b9e0bfeba71312f2f34676f62c3f23283a4ffb89750ad90ff232f3e2",
+      "bytes": 20
+    },
+    {
+      "path": "src/aerial_openvla/data/build_manifest.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "7c116cfdbc0f073b462985b9f274f25e7f1af15ec68c716669b9b9cd1fd27fb7",
+      "bytes": 7295
+    },
+    {
+      "path": "src/aerial_openvla/data/cached_frames.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "90fd079a6debfda72330a9241d982538ee330d5427128a68d5019f22d9d53031",
+      "bytes": 2289
+    },
+    {
+      "path": "src/aerial_openvla/data/collator.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "f6931a04a8cc081fb045e82dd85611ba8402a6fedf71c471be68e3394247f47e",
+      "bytes": 2051
+    },
+    {
+      "path": "src/aerial_openvla/data/dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "672b7ea402a0e7eb110f653ab24623afedbf6d9913c49d1be97aebb95b26093a",
+      "bytes": 1207
+    },
+    {
+      "path": "src/aerial_openvla/data/event_h16.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "2dc9677c5ee0f3b5629d0ffb1dea46c31ee501e8ddf198b90cfbc2fbc80bbe13",
+      "bytes": 11392
+    },
+    {
+      "path": "src/aerial_openvla/data/h16_frozen_pool_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "d64c7374459977c9240ddb52ec855825258e6689f5cb7de22a5402b7bc2656e6",
+      "bytes": 4316
+    },
+    {
+      "path": "src/aerial_openvla/data/h5_pre_cache.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "45e5190a8d50d5ce8532ce6ad31a0fe91a92c653ff5afe0822c16d107e0624c2",
+      "bytes": 7346
+    },
+    {
+      "path": "src/aerial_openvla/data/instruction_segments.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "722b6672181c47b259c93a6ec8c2e780dabb3c92458dc7e371cd21d7578a5900",
+      "bytes": 9070
+    },
+    {
+      "path": "src/aerial_openvla/data/manifest.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "ca292d0f3809f18b868b9995277cf8e18cb122bb02d3b7878ebae7cdbe772ced",
+      "bytes": 1377
+    },
+    {
+      "path": "src/aerial_openvla/data/multiframe_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "0f9ed02526add2db8f2bdda6a028c2e164b2a3dca0668b8ddb924f73ee816ac8",
+      "bytes": 63474
+    },
+    {
+      "path": "src/aerial_openvla/data/native1t_postfusion_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "e4d1977fe23ce48f6f0adb1752a12def7bf94f7356da508a2d81fd0232cef040",
+      "bytes": 37755
+    },
+    {
+      "path": "src/aerial_openvla/data/omtrack_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "4ee056b7800a8fcdac93c5c02a2388c9c97f045d25b2beefa05683dc76f8047b",
+      "bytes": 7562
+    },
+    {
+      "path": "src/aerial_openvla/data/pipeline.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "b4b0e3feb99fb0404c60b93d4ec555b95cae67ce542f7c395976e71e3ade2b44",
+      "bytes": 23899
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_native_collator.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "0cbe361861a3b5306b3e338e170355b4c8769abb0b6126073148aeccc7aab1f7",
+      "bytes": 23133
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_nativemem_collator.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "2f7c404389e4c8d6592cf6ebf482cd3ff558c33b0797a4ba1c5d18599c7e6a98",
+      "bytes": 2141
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_nativemem_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "22c50a6824be6272041b7342509f67d9e4a1fa9049d346ac722c29a5f0cd2e76",
+      "bytes": 4538
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_nativemem_v2_collator.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "40a17e7423e4a75f09303808a2b1ea8e84ba8ad2e584ba89ebea6c934f90d47e",
+      "bytes": 8588
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_nativemem_v2_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "b1c51919b3f409b61dd6a1f331812d863138c83f70060e28cf076c92051e1698",
+      "bytes": 12824
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_relative_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "3dc62a8772a77e566ed43093e309318cba342d1d3fd458153e00bde9b2f46e6b",
+      "bytes": 4533
+    },
+    {
+      "path": "src/aerial_openvla/data/qwen35_relative_state.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "4df649e0e39a5384b4331d8d7f1e531457ee9dca750d89c52cb81139d0259569",
+      "bytes": 4075
+    },
+    {
+      "path": "src/aerial_openvla/data/schema.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "8455fb18650e3a61d7faf3bd39959fd0304ae4888aa8979733bc113954d50be2",
+      "bytes": 2370
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "8db2853c63cd82aed1d2cefa58c0e3d7d535b6a2396bd851fdf9fe425d8b7d50",
+      "bytes": 26
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/airvln_adapter.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "92b260fddd7cb2e813557554d2a62823d9ce31f29df5a75305fe4cd8b5026e7a",
+      "bytes": 10235
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/closed_loop.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "dc7e281d0cb6b372e1a95a6057074ac32fdf6467d110f7144ea4b0e6d42862d8",
+      "bytes": 14516
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/eval_offline.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "ffc6d8d4f19a153228c90199df297320a0d0eba90c7be373f901aba37cbb7bc8",
+      "bytes": 10286
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/fast_validate.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "4b98a20b6cae7b991df94bf46de7b6acfe3749d6ab73fdeeef22f3f7b1ff9050",
+      "bytes": 17898
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/metrics.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "008d01ff7a13bc26ddbff15261adf619a2d39b7bc2624bb830d40343fc3cfda7",
+      "bytes": 5066
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/offline_metrics.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "b02c95c97fe0d96c30a61071d57939b6596910bfd91b77c6b26fab58cd87e4f0",
+      "bytes": 9385
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/policy.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "c6e0e917fd368822db5bdffc8662b74cd17f250fb2d93413a3e68b1a3b36f480",
+      "bytes": 80841
+    },
+    {
+      "path": "src/aerial_openvla/evaluation/rollout.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "b5f5121165f845575198aa1ef1b00c16bc2fae4cd46efa1505f9dcb94953e0be",
+      "bytes": 9995
+    },
+    {
+      "path": "src/aerial_openvla/models/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "3fa5ff38394a454a6bbcb586b8ca3f254b8374c145ddd1f3bb110e01f7c0fb2f",
+      "bytes": 22
+    },
+    {
+      "path": "src/aerial_openvla/models/airminivla_classifier.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "0fa7d593c99d00117804525c77f6241dc3efa1834f00445655cb65555d551813",
+      "bytes": 264715
+    },
+    {
+      "path": "src/aerial_openvla/models/base.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "96a97ef2810d2750cb3aa00d51b8e8193f385a28aa1638d935a31c966da60db8",
+      "bytes": 4101
+    },
+    {
+      "path": "src/aerial_openvla/models/factory.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "bf70d07e96c0f94d825af262be271aba7b0e9e29033f20000546372d74b6356d",
+      "bytes": 30837
+    },
+    {
+      "path": "src/aerial_openvla/models/openvla_classifier.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "8bb99e6035f4f69d670ceb5a494f0a48db1e8f6cd0aa48a9862c824266302376",
+      "bytes": 18033
+    },
+    {
+      "path": "src/aerial_openvla/models/temporal_memory.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "2639eb850fc0f929445f63eda79bdfdc450f99b9872226413487a5861cfb6124",
+      "bytes": 2027
+    },
+    {
+      "path": "src/aerial_openvla/openfly/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "a9bba5b93fb3bbaf72f6e2e06b1b1d30ba3b3a1cc43b0723bd14b1d325ed9122",
+      "bytes": 1419
+    },
+    {
+      "path": "src/aerial_openvla/openfly/action_codec.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "f63850047428437447a6f33ae55e8d3f671d7827475b0760c999d32270b322ff",
+      "bytes": 20722
+    },
+    {
+      "path": "src/aerial_openvla/openfly/collator.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "e1aa3a03aef8d32a47e30163170e6dc05448dde6e0221277000755a97243ce20",
+      "bytes": 1723
+    },
+    {
+      "path": "src/aerial_openvla/openfly/native1t.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "2f32c6377156da21938caba9849e2a66fabea808fa78d275a9e7b6c4e79bad16",
+      "bytes": 38826
+    },
+    {
+      "path": "src/aerial_openvla/openfly/observed8_native1t.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "2f45ac98987689feddaf4c337dcb0e409dada3e11ca3ee4a43afd9ee3f26a085",
+      "bytes": 21647
+    },
+    {
+      "path": "src/aerial_openvla/openfly/parquet_dataset.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "f83ac00e5e7d9b06d176bd75b8700de90be65e02f024513d2121b49036ddb8dc",
+      "bytes": 16970
+    },
+    {
+      "path": "src/aerial_openvla/openfly/policy_adapter.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "9fc77ad6f3b3933320b14113d2f4fb1d712c9f85f1691736fcec8d9951c76d19",
+      "bytes": 7678
+    },
+    {
+      "path": "src/aerial_openvla/openfly/tfds_current_frame.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "7a760d86a52c150ce615503e09def6e458e6630fbedd70032e55e2607b032206",
+      "bytes": 21714
+    },
+    {
+      "path": "src/aerial_openvla/training/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "e86d3f81d9700674011bcc199539b636d8245d925c5d17cb3034368aee8edd4e",
+      "bytes": 24
+    },
+    {
+      "path": "src/aerial_openvla/training/pooler_chain_audit.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "91db2022b7b14dbba8243a48c2ce43ed4e7aa249cbea27ee08e45923011a8a27",
+      "bytes": 10737
+    },
+    {
+      "path": "src/aerial_openvla/training/train.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "e848ddac61adb573e7f49c589ace954334c490bc3b556cb5be70fa6af83dfece",
+      "bytes": 136209
+    },
+    {
+      "path": "src/aerial_openvla/training/train_profile.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "54cd52b47e43b6df648759c4e8af2c10f6e44df8da2b7288a788950de889f93c",
+      "bytes": 143907
+    },
+    {
+      "path": "src/aerial_openvla/utils/__init__.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "bd2760e8c14db1d8a13467e448c770e952ef25c574a718dd54d9986136797aa4",
+      "bytes": 21
+    },
+    {
+      "path": "src/aerial_openvla/utils/distributed.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "36d95d80af46ef788b7939af35c34275b2e68323446542bc25ec69debbd0dc4e",
+      "bytes": 1658
+    },
+    {
+      "path": "src/aerial_openvla/utils/io.py",
+      "origin": "611352 frozen evaluator source, 2026-09-11",
+      "sha256": "8af222bf0eca874344d648b752b246acf0ef93ab9047fb98c7f5099647e8b629",
+      "bytes": 1524
+    },
+    {
+      "path": "scripts/cache_native1t_postfusion.py",
+      "origin": "611352 training source, 2026-09-10",
+      "sha256": "1b6c80ab32d12161a71efc179f1a0bc19698a4ac4225322ae75958fa559359a6",
+      "bytes": 12283
+    },
+    {
+      "path": "scripts/cache_openfly_pooler32_native1t_tfds_parallel.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "faff8ef369a8a340c87b843a9de335cb6b9fb50ad7dcef064edb76642946b8b1",
+      "bytes": 44192
+    },
+    {
+      "path": "scripts/native1t_reducer_contract.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "bb3ac8bbfe64578eda9b3bd13760b6da43028da9faa1385295c9247586a5e3c7",
+      "bytes": 7521
+    },
+    {
+      "path": "scripts/selected_stage1_contract.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "ee55fd6539e4e7d8f77a91d0af477ac2d5afc1268ad96f7ed3b82fabcf5b1d37",
+      "bytes": 1021
+    },
+    {
+      "path": "scripts/train_openfly_instruction_pooler32_native1t_stage2_tfds.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "d6a016653ee21d28573d6524c4700e8e996f1f5adcc7d95b9c53047699430f03",
+      "bytes": 28443
+    },
+    {
+      "path": "scripts/train_openfly_instruction_pooler32_native1t_stage1_tfds.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "cc747cb73266570931fe02b870738bc4dd316c6b33ae2e579556035b0bea652a",
+      "bytes": 13829
+    },
+    {
+      "path": "scripts/train_openfly_minivla_observed8.py",
+      "origin": "OpenFly training support snapshot, 2026-09-09",
+      "sha256": "46b6e36f6934eab57d1259d91e35c06a742c8a6d9e66a01cdb0a957a960019c4",
+      "bytes": 10066
+    },
+    {
+      "path": "scripts/eval_airvln_verified.py",
+      "origin": "611352 verified evaluation entry, 2026-09-12",
+      "sha256": "7d3181de7675b3d344024ed1609b8d01abc5d730737686940f462c36086ce6cb",
+      "bytes": 2629
+    }
+  ]
+}

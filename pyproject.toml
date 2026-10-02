@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightvln"
+version = "0.1.0"
+description = "LightVLN pre-fix research code snapshot"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6"]
+
+[project.optional-dependencies]
+training = ["torch", "torchvision", "transformers", "peft", "accelerate", "timm", "Pillow", "numpy", "einops", "tqdm", "h5py", "pyarrow"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
