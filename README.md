@@ -1,5 +1,7 @@
 # LightVLN — 修复前代码快照
 
+[项目主页 / Project website](https://lightvln-aerial-navigation.warmgame4.chatgpt.site)
+
 版本：`pre-fix-20261002`。这是 LightVLN Local Weighted32 + Native1T H16 + history-conditioned instruction-selection residual 的私有归档，用于后续修复前后的可追踪比较。
 
 保留模型、数据读取、训练与评估基础代码及 AirVLN/OpenFly 配置。**不包含模型权重、训练数据、轨迹、缓存、日志、视频或第三方源码。** `aerial_openvla` 是历史包名。
